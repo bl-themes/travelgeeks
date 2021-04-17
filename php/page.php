@@ -16,6 +16,7 @@
               <?php endif ?>
               <div class="card-body">
                 <p class="card-text"><?php echo $page->content(); ?></p>
+                      <?php Theme::plugins('pageEnd'); ?>
               </div>
 
               <div class="card-body">
@@ -90,4 +91,3 @@
       </div>
       <!--/ feature post -->
     <!--/ content -->
-  <?php Theme::plugins('pageEnd'); ?>
