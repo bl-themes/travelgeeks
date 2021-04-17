@@ -16,7 +16,6 @@
               <?php endif ?>
               <div class="card-body">
                 <p class="card-text"><?php echo $page->content(); ?></p>
-                      <?php Theme::plugins('pageEnd'); ?>
               </div>
 
               <div class="card-body">
@@ -32,6 +31,8 @@
                 <?php endforeach ?>
                 <!--/ tag -->
               <?php endif; ?>
+              <br>
+                <?php Theme::plugins('pageEnd'); ?>
               </div>
               <br>
             </div>
